@@ -166,8 +166,6 @@ def unzip(in_filename, password):
             #inside = zip.namelist()[i]
             zip.extract(i,pwd=bytes(password,'utf-8'))
 
-
-
 ########################################################
 
 
@@ -217,8 +215,6 @@ if __name__ == '__main__':
         result.show()
     except:
         print("Bilder können nicht miteinander komprimiert werden")
-        # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
 
     print(hash_tag)
     print("Decodiere das neu erstellte Bild:")
@@ -272,4 +268,3 @@ if __name__ == '__main__':
     print("Das Lösungswort der Challenge lautet:" + solution_word)
 
     print("Merry Christmas and Happy Hacking New Year 2022 :-)")
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
